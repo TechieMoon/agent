@@ -76,7 +76,7 @@ pip install -r requirements.txt
 | 절 | 세부 내용 | 코드 | 정리 문서 | 비고 |
 |---|---|---|---|---|
 | **6.1** 도구를 호출하는 에이전트 이해하기 |  | - | - |  |
-| **6.2** 웹 검색 에이전트 만들기 | 6.2.1 🧪 타빌리 서치 사용법 익히기<br>6.2.2 🧪 랭체인에서 도구 호출 사용하기<br>6.2.3 🧪 랭그래프로 에이전트 그래프 생성하기<br>6.2.4 🧪 최신 정보 검색하고 답변 받아보기<br>6.2.5 🧪 랭그래프 서버 실행하고 랭그래프 스튜디오 사용하기 | [6.2_tavily_search_tool_calling.ipynb](ch06/6.2_tavily_search_tool_calling.ipynb) | [6.2_tavily_search_tool_calling.md](ch06/6.2_tavily_search_tool_calling.md) | 6.2.1 ~ 6.2.2 실습 (6.2.3 ~ 6.2.5는 아직) |
+| **6.2** 웹 검색 에이전트 만들기 | 6.2.1 🧪 타빌리 서치 사용법 익히기<br>6.2.2 🧪 랭체인에서 도구 호출 사용하기<br>6.2.3 🧪 랭그래프로 에이전트 그래프 생성하기<br>6.2.4 🧪 최신 정보 검색하고 답변 받아보기<br>6.2.5 🧪 랭그래프 서버 실행하고 랭그래프 스튜디오 사용하기 | [6.2_tavily_search_tool_calling.ipynb](ch06/6.2_tavily_search_tool_calling.ipynb)<br>[6.2_web_search_agent.py](ch06/6.2_web_search_agent.py) | [6.2_tavily_search_tool_calling.md](ch06/6.2_tavily_search_tool_calling.md)<br>[6.2_web_search_agent.md](ch06/6.2_web_search_agent.md) | 6.2.1 ~ 6.2.2: 타빌리 검색·도구 호출<br>6.2.3 ~ 6.2.5: 웹 검색 에이전트 그래프·실행 방법·랭그래프 서버(`ch06/langgraph.json`). `TavilySearch(max_result=3)` 오타를 `max_results`로 수정 |
 | **6.3** 코딩 에이전트 만들기 | 6.3.1 🧪 사용자 도구 정의하기<br>6.3.2 🧪 코드 실행 도구 만들기<br>6.3.3 🧪 파일을 저장하는 도구 만들기 | - | - |  |
 | **6.4** create_agent 상세 구조 이해하기 | 6.4.1 create_agent 개요 이해하기<br>6.4.2 주요 파라미터 이해하기<br>6.4.3 🧪 미들웨어 추가하기<br>6.4.4 🧪 구조화 출력 정의하기 | - | - |  |
 | **6.5** RAG를 위한 에이전트 만들기 | 6.5.1 RAG란<br>6.5.2 🧪 벡터 데이터베이스의 이해와 사용하기<br>6.5.3 🧪 문서 검색과 답변을 위한 도구 정의하기<br>6.5.4 🧪 랭그래프로 에이전트 생성하기<br>6.5.5 🧪 문서를 기반으로 질문하고 답변 받아보기 | - | - |  |
